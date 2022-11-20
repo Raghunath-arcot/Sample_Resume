@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Raghu's Resume</title>
+	<style>
+		body{
+			font-family: Calibri,sans-serif;
+			background-color: powderblue;
+		}
+		div{
+			background-color: lightgray;
+			padding: 10px;
+			border-radius: 10px;
+			margin: 10px;
+		}
+		table{
+			width: 100%;
+			text-align:center;
+
+		}
+		th{
+			background-color: gray;
+			color: white;
+		}
+		img{
+			border-radius: 50%;
+			box-shadow: 0 0 10px darkred;
+		}
+	</style>
+</head>
+<body>
+	
+	<!-- Profile Data -->
+	<div>
+		<h1>PROFILE DATA</h1>
+		<table>
+			<tr>
+				<td>
+					<img src="profile.jpg" alt="NA" width="200" height="200">
+				</td>
+				<td>
+					<h3>RAGHUNATH RAO ARCOT</h3>
+					<h4>+91-99089***27</h4>
+					<h4>raghu.off.acc@gmail.com</h4>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- BIO -->
+	<div>
+		<h1>ABOUT ME</h1>
+		<p>"My name is Raghunath Rao Arcot and I am currently pursuing my B-Tech in SRM Institute of Science and Technology on Computer Science and Engineering with specilization in Artificial Intelligance and Machine Learning. I am an AI & ML Enthusiast."</p> 
+		<p>"I am an accomplished coder and programmer, and I enjoy using my skills to contribute to the exciting technological advances.Currently completing a course in Web coding to strengthen my skills so, it can be a key to achieve my dream and awaiting to get out with flying colours."</p>
+	</div>
+
+	<!-- Education -->
+	<div>
+		<h1>EDUCATION</h1>
+		<table>
+			<tr>
+				<th>SNo.</th>
+				<th>Name of the University/Institute</th>
+				<th>Year of Study</th>
+				<th>CGPA/Percentage</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>SRM Institute of Science and Techonolgy</td>
+				<td>2021-2025</td>
+				<td>95.5%</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Sri Chaitanya Junior College</td>
+				<td>2019-2021</td>
+				<td>94.7%</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>SV Children's High School</td>
+				<td>2019 passed</td>
+				<td>100%</td>
+			</tr>
+		</table>
+ 	</div>
+
+
+<!-- Skills -->
+<div>
+	<h1>TECHNICAL SKILLS</h1>
+	<table>
+		<tr>
+			<th>Programming Languages:</th>
+			<th>Industry Knowledge:</th>
+			<th>FrameWorks:</th>
+			<th>People Skills:</th>
+		</tr>
+		<tr>
+			<td>C,C++,Python</td>
+			<td>Data Structures,Algorithms,DBMS</td>
+			<td>HTML,CSS,Bootstrap,Flutter</td>
+			<td>Teamwork,Leadership,Decision Making</td>
+		</tr>
+	</table>	
+</div>
+
+<!-- Hobbies -->
+ <div>
+ 	<h1>HOBBIES & INTERESTS</h1>
+ 	<ul>
+ 		<li>Working on my daily tasks</li>
+ 		<li>Chasing to learn new things</li>
+ 		<li>Playing outdoor Games</li>
+ 		<li>Reading Books</li>
+ 	</ul>
+ </div>
+  <!--Contact Info -->
+  <div>
+  	<table>
+  		<tr>
+  			<td>
+  				<h3>Raghunath Rao Arcot</h3>
+  				<span align="left">Door No.:*****</span><br>
+  				<span>Area:*****</span><br>
+  				<span>Tirupati</span><br>
+  				<span>517501</span><br>
+  				<span>Andhra Pradesh</span><br>
+  			</td>
+  			<td>
+  				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15561.25239937208!2d80.044416!3d12.823033!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfdb944a3aee53831!2sSRM%20Institute%20of%20Science%20and%20Technology!5e0!3m2!1sen!2sin!4v1652211551334!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  			</td>
+  		</tr>
+  	</table>
+  </div>
+	
+
+
+
+
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function() {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function(msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			console.log('Live reload enabled.');
+		})();
+	}
+	// ]]>
+</script>
+</body>
+</html>
